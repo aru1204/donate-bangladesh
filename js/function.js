@@ -12,3 +12,7 @@ function textIntoNumber (id){
     return donateAmountNumber;
 }
 
+function newInput (id){
+    const donateInpute = document.getElementById(id);
+    donateInpute.value = "";
+}
