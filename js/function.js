@@ -12,8 +12,3 @@ function textIntoNumber (id){
     return donateAmountNumber;
 }
 
-// function textChange (idOfBeforeText, afterText){
-
-//     const myMoney = document.getElementById(idOfBeforeText);
-//         myMoney.innerText = afterText;
-// }

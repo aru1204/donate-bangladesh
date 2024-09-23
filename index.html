@@ -14,7 +14,7 @@
     <title>Donate Bangladesh Home</title>
 
 </head>
-<body class="lexendfont">
+<body class="lexendfont ">
     <header>
         <section class=" lg:mb-20 mb-10 bg-[#F9F7F3] px-2">
             <nav class="flex justify-between h-20 lg:h-36 items-center container mx-auto">
@@ -40,7 +40,21 @@
         </section>
     </header>
     <main>
+        <!-- Donation Message Section Start -->
+
+        <section id="pop-up" class="fixed bg-white rounded-2xl left-[40%] z-11 hidden">
+            <div class="flex justify-center flex-col items-center p-8 space-y-7">
+                <h3 class="font-bold text-5xl">Congrates!</h3>
+                <img class="w-[50px]" src="assets/coin.png" alt="">
+                <p class="text-gray-400">You Have Doneted For Humankind</p>
+                <h4 class="font-bold text-xl">Successfully</h4>
+                <button id="popup-cls-btn" class="bg-gray-200 px-5 py-3 rounded-lg hover:bg-gray-300">close confirmation</button>
+            </div>
+        </section>
+
+        <!-- Donation Message Section End -->
         <!-- Donation Section Start -->
+
         <section class="p-3 space-y-8" id="donation-section">
             <div class="container mx-auto p-5 lg:p-8 flex flex-col lg:flex-row space-y-8 lg:space-y-0 lg:space-x-8 rounded-2xl border-[1px]">
                 <div class="lg:w-6/12 flex justify-center"> 

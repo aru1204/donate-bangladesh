@@ -4,8 +4,10 @@ document.getElementById('noakhali-donate-btn').addEventListener('click', functio
 
     const donateAmountNumber = inputIntoNumber('noakhali-donate-input');
     const totalDonate = textIntoNumber('noakhali-donate-sum');
-    
-    
+
+    const popUp = document.getElementById('pop-up');
+    popUp.classList.remove('hidden');
+
     if  (isNaN(donateAmountNumber) || donateAmountNumber < 0 ){
         alert("Please Donate Positive Amount");
     }
@@ -29,7 +31,9 @@ document.getElementById('feni-donate-btn').addEventListener('click', function(){
     const donateAmountNumber = inputIntoNumber('feni-donate-input');
     const totalDonate = textIntoNumber('feni-donate-sum');
     
-    
+    const popUp = document.getElementById('pop-up');
+    popUp.classList.remove('hidden');
+
     if  (isNaN(donateAmountNumber) || donateAmountNumber < 0 ){
         alert("Please Donate Positive Amount");
     }
@@ -53,6 +57,8 @@ document.getElementById('quota-donate-btn').addEventListener('click', function()
     const donateAmountNumber = inputIntoNumber('quota-donate-input');
     const totalDonate = textIntoNumber('quota-donate-sum');
     
+    const popUp = document.getElementById('pop-up');
+    popUp.classList.remove('hidden');
     
     if  (isNaN(donateAmountNumber) || donateAmountNumber < 0 ){
         alert("Please Donate Positive Amount");
