@@ -16,35 +16,103 @@
 </head>
 <body class="lexendfont">
     <header>
-        <section class=" mb-20 bg-[#F9F7F3]">
-            <nav class="flex justify-between h-36 items-center container mx-auto">
+        <section class=" mb-20 bg-[#F9F7F3] px-2">
+            <nav class="flex justify-between h-20 lg:h-36 items-center container mx-auto">
                 <div>
-                    <button class="btn bg-[#B4F461] font-semibold text-xl px-8 py-3 ">Blog</button>
+                    <button class="btn bg-[#B4F461] font-semibold text-base lg:text-xl px-6 lg:px-8 lg:py-3 ">Blog</button>
                 </div>
                 <div class="flex items-center space-x-4">
-                    <img src="assets/logo.png" alt="">
-                    <h1 class="font-semibold text-xl">Donate Bangladesh</h1>
+                    <img class="w-9/12 lg:w-max" src="assets/logo.png" alt="">
+                    <h1 class="font-semibold text-xl hidden lg:block">Donate Bangladesh</h1>
                 </div>
                 <div class="flex items-center space-x-3">
                     <img src="assets/coin.png" alt="">
-                    <p class="font-medium text-xl">60000</p>
-                    <p class="font-medium text-xl">BDT</p>
+                    <p class="font-medium text-base lg:text-xl">60000</p>
+                    <p class="font-medium text-base lg:text-xl">BDT</p>
                 </div>
             </nav>
         </section>
-        <section>
+        <section class="mb-8">
             <div class="conteiner flex justify-center items-center mx-auto space-x-4">
-                <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg font-semibold text-xl">Donation</button>
-                <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg font-semibold text-xl">History</button>
+                <button id="donation-btn" class="btn font-semibold text-xl bg-[#B4F461]">Donation</button>
+                <button id="history-btn" class="btn font-semibold text-xl">History</button>
             </div>
         </section>
     </header>
     <main>
+        <!-- Donation Section Start -->
+        <section class="p-3 space-y-8" id="donation-section">
+            <div class="container mx-auto p-5 lg:p-8 flex flex-col lg:flex-row space-y-8 lg:space-y-0 lg:space-x-8 rounded-2xl border-[1px]">
+                <div class="lg:w-6/12 flex justify-center"> 
+                    <img class="rounded-xl w-screen" src="assets/noakhali.png" alt="">
+                </div>
+                <div class="lg:w-6/12 flex flex-col justify-between space-y-4">
+                    <div class="flex items-center space-x-3 bg-gray-100 px-4 py-3 w-fit	rounded-lg">
+                        <img src="assets/coin.png" alt="">
+                        <p class="font-medium text-base lg:text-lg">60000</p>
+                        <p class="font-medium text-base lg:text-lg">BDT</p>
+                    </div>
+                    <h3 class="font-bold text-xl">Donate for Flood at Noakhali, Bangladesh</h3>
+                    <p class="font-light text-base"> Join us in supporting the victims of the devastating floods in Noakhali. Your donation can provide essential supplies, shelter, and medical aid to those affected by this natural disaster. Every contribution helps rebuild lives.</p>
+                    <input class="border-[1px] rounded-lg min-h-14 px-[18px]" type="text" placeholder="Write Donation Amount">
+                    <button class="bg-[#B4F461] py-4 font-semibold text-xl rounded-lg">Donate Now</button>
+                </div>
+            </div>
+
+
+            <div class="container mx-auto p-5 lg:p-8 flex flex-col lg:flex-row space-y-8 lg:space-x-8 rounded-2xl border-[1px]">
+                <div class="lg:w-6/12 flex justify-center"> 
+                    <img class="rounded-xl w-screen" src="assets/feni.png" alt="">
+                </div>
+                <div class="lg:w-6/12 flex flex-col justify-between space-y-4">
+                    <div class="flex items-center space-x-3 bg-gray-100 px-4 py-3 w-fit	rounded-lg">
+                        <img src="assets/coin.png" alt="">
+                        <p class="font-medium text-base lg:text-lg">60000</p>
+                        <p class="font-medium text-base lg:text-lg">BDT</p>
+                    </div>
+                    <h3 class="font-bold text-xl">Donate for Flood Relief in Feni,Bangladesh</h3>
+                    <p class="font-light text-base"> Help us provide urgent relief to the people of Feni suffering from severe flooding. Your generous donation can offer food, water, and shelter to the flood victims, giving them hope during these tough times.</p>
+                    <input class="border-[1px] rounded-lg min-h-14 px-[18px]" type="text" placeholder="Write Donation Amount">
+                    <button class="bg-[#B4F461] py-4 font-semibold text-xl rounded-lg">Donate Now</button>
+                </div>
+            </div>
+
+
+            <div class="container mx-auto p-5 lg:p-8 flex flex-col lg:flex-row space-y-8 lg:space-x-8 rounded-2xl border-[1px]">
+                <div class="lg:w-6/12 flex justify-center"> 
+                    <img class="rounded-xl w-screen" src="assets/quota-protest.png" alt="">
+                </div>
+                <div class="lg:w-6/12 flex flex-col justify-between space-y-4">
+                    <div class="flex items-center space-x-3 bg-gray-100 px-4 py-3 w-fit	rounded-lg">
+                        <img src="assets/coin.png" alt="">
+                        <p class="font-medium text-base lg:text-lg">60000</p>
+                        <p class="font-medium text-base lg:text-lg">BDT</p>
+                    </div>
+                    <h3 class="font-bold text-xl">Aid for Injured in the Quota Movement</h3>
+                    <p class="font-light text-base"> Celebrate Eid by offering support to the injured participants of the Kota movement. Your kind donation will aid in medical treatment and help bring comfort to those who have suffered during their fight for justice.</p>
+                    <input class="border-[1px] rounded-lg min-h-14 px-[18px]" type="text" placeholder="Write Donation Amount">
+                    <button class="bg-[#B4F461] py-4 font-semibold text-xl rounded-lg">Donate Now</button>
+                </div>
+            </div>
+            
+        </section>
+        <!-- Donation Section End -->
+
+        <!-- History Section Start -->
+        <section id="history-section" class="hidden">
+            <div class="container mx-auto border-[1px] rounded-2xl p-8 space-y-4">
+                <p class="font-bold text-xl">96500 Taka is Donated for famine-2024 at Feni, Bangladesh</p>
+                <p class="font-light text-base">Date : Tue Sep 17 2024 08:39:11 GMT +0600 (Bangladesh Standard Time)</p>
+            </div>
+        </section>
+        <!-- History Section Start -->
+
 
     </main>
-    <footer>
+    <footer class="h-36 bg-[#F9F7F3] mt-20">
 
     </footer>
 
+    <script src="js/button.js"></script>
 </body>
 </html>
