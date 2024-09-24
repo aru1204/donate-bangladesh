@@ -16,3 +16,4 @@ function newInput (id){
     const donateInpute = document.getElementById(id);
     donateInpute.value = "";
 }
+
