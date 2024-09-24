@@ -36,6 +36,8 @@ document.getElementById('popup-cls-btn').addEventListener('click', function (){
 
     const popUp = document.getElementById('pop-up');
     popUp.classList.add('hidden');
+    const fullBody = document.getElementById('pop-up-bg');
+    fullBody.classList.add('hidden');
 })
 
 
