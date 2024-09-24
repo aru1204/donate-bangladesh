@@ -40,7 +40,7 @@
         <h3 class="font-bold text-3xl mb-10">Important FAQ</h3>
         <div class="collapse collapse-arrow bg-base-200 mb-3">
             <input type="radio" name="my-accordion-2" checked="checked" />
-            <div class="collapse-title text-xl font-medium">What is the DOM in JavaScript?</div>
+            <div class="collapse-title text-xl font-medium">What is Documont Object Model (DOM)?</div>
             <div class="collapse-content">
                 <p>The DOM is a programming interface for web documents that allows JavaScript to manipulate HTML elements.
                 </p>
@@ -48,18 +48,24 @@
         </div>
         <div class="collapse collapse-arrow bg-base-200 mb-3">
             <input type="radio" name="my-accordion-2" />
-            <div class="collapse-title text-xl font-medium">How do you access an HTML element in the DOM by its ID?
+            <div class="collapse-title text-xl font-medium">How do you select an element from DOM?
             </div>
             <div class="collapse-content">
-                <p>Use document.getElementById('elementId').</p>
+                <p>To select an element from the DOM in JavaScript you use -</p>
+                <ul>
+                    <li>ID</li>
+                    <li>Class</li>
+                    <li>Tag Name</li>
+                    <li>CSS Selector</li>
+                </ul>
             </div>
         </div>
         <div class="collapse collapse-arrow bg-base-200 mb-3">
             <input type="radio" name="my-accordion-2" />
-            <div class="collapse-title text-xl font-medium">How do you change the content of an HTML element using the DOM?
+            <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why is it useful?
             </div>
             <div class="collapse-content">
-                <p>You can change the content using " element.innerHTML = "New content"; "
+                <p>Event delegation involves attaching a single event listener to a parent element to manage events for its children. It's useful because it improves performance, simplifies code, and handles dynamically added elements.
                 </p>
             </div>
         </div>
@@ -68,26 +74,14 @@
             <div class="collapse-title text-xl font-medium">What is the purpose of querySelector() in the DOM?
             </div>
             <div class="collapse-content">
-                <p>querySelector() selects the first element that matches a specified CSS selector.
-                </p>
-            </div>
-        </div>
-        <div class="collapse collapse-arrow bg-base-200 mb-3">
-            <input type="radio" name="my-accordion-2" />
-            <div class="collapse-title text-xl font-medium">How can you add a class to an HTML element using the DOM?
-            </div>
-            <div class="collapse-content">
-                <p>Use element.classList.add('className').
-                </p>
-            </div>
-        </div>
-        <div class="collapse collapse-arrow bg-base-200 mb-3">
-            <input type="radio" name="my-accordion-2" />
-            <div class="collapse-title text-xl font-medium">What is document.createElement() used for?
-            </div>
-            <div class="collapse-content">
-                <p>It creates a new HTML element in the DOM.
-                </p>
+                <ul>
+                    <li>
+                        Attributes: "element.setAttribute()" and "element.getAttribute()"
+                    </li>
+                    <li></li>
+                        Styles: "element.style.property" and "element.classList"
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
